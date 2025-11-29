@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch main.ts"
+  },
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "imports": {
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.5",
+    "@std/ulid": "jsr:@std/ulid@^1.0.0",
+    "mysql": "npm:mysql@^2.18.1",
+    "npm:": "npm:",
+    "reflect-metadata": "https://deno.land/x/reflect_metadata@v0.1.12/mod.ts"
+  }
+}
